@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+
+.top-box {
+    background-image: url("./dev.png");
+    height: 90vh;
+    background-size: cover;
+
+}
+
+.cabecalho {
+    padding-top: 38px;
+    padding-left: 39px;
+}
+
+.titulo-cabecalho {
+    font-size: 24px;
+    color: #ffff;
+    display: inline;
+
+}
+
+.link-cabecalho {
+    font-size: 14px;
+    color: #ffff;
+    display: inline;
+    margin-left: 135px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 58px;
+    color: #ffff;
+    position: relative;
+    top: 500px;
+    margin-left: 39px;
+
+}
+
+form {
+    opacity: 0;
+    transition: opacity 1s linear;
+    background-color: #ffff;
+    border-radius: 10px;
+    float: right;
+    padding: 20px;
+    margin-right: 58px;
+    position: relative;
+    bottom: 70px;
+    margin-top: 20px;
+}
+
+.mostrar-formulario {
+    opacity: 1;
+
+}
+
+input {
+    display: block;
+    background: #F9F9F9;
+    border: 1px solid #E6E6E6;
+    height: 40px;
+    width: 250px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+
+}
+
+textarea {
+    display: block;
+    background: #F9F9F9;
+    border: 1px solid #E6E6E6;
+    height: 100px;
+    width: 250px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+
+.titulo-formulario {
+    font-size: 24px;
+    color: #252b42;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+label {
+    font-size: 20px;
+    color: #252b42;
+    font: bold;
+
+}
+
+button {
+    width: 250px;
+    height: 40px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #40BB15;
+    color: #ffff;
+}
+
+.caixa-central {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 25px;
+}
+
+#titulo-meio {
+
+    font-size: 20px;
+    color: #252b42;
+    margin-top: 250px;
+    margin-bottom: 50px;
+    text-align: center;
+    padding-top: 300px;
+
+}
+
+
+.card {
+    width: 150px;
+    height: 200px;
+    border-radius: 10px;
+    background-color: #ffff;
+    border: 1px solid #E6E6E6;
+
+
+}
+
+.titulo-card {
+    background-color: #219653;
+    color: #ffff;
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px 10px 0 0;
+    font-size: 15px;
+
+}
+
+ul {
+    padding: 10px;
+
+}
+
+li {
+    margin-bottom: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+    font-size: 12px;
+}
+
+.caixa-inferior {
+    background-color: #252B42;
+    height: 50vh;
+    margin-top: 350px;
+
+}
+
+#titulo-inferior {
+    color: #ffff;
+    font-size: 20px;
+    text-align: center;
+    padding: 50px;
+
+}
+
+.paragrafo-inferior {
+    font-size: 15px;
+    color: #ffff;
+    text-align: center;
+    padding: 20px 50px 50px 50px;
+}
